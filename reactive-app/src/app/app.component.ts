@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  firstName = "Naomi";
+  lastName = "Miller";
+  address = "452 Holly Lane, Hopewell, VA 23860";
+  favoriteNumber = 125;
+
+  onSubmit() {
+    alert("Form submitted.");
+    console.log("Form submitted");
+  }
 }
